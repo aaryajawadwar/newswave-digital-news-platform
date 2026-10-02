@@ -1,16 +1,61 @@
-# React + Vite
+# 🌊 NewsWave — Modern Digital News & Magazine Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+NewsWave is a modern, responsive digital news and magazine platform built with React.js, JavaScript, and Tailwind CSS.
 
-Currently, two official plugins are available:
+The platform provides users with a clean interface for discovering news, searching articles, browsing categories, saving bookmarks, and customizing their reading experience.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Live Features
 
-## React Compiler
+- 📰 Featured news section
+- 🔥 Trending articles
+- 🔎 Article search
+- 📂 Category-based filtering
+- 📖 Article detail pages
+- 🔖 Bookmark articles
+- 💾 Browser localStorage support
+- 🌙 Dark / Light mode
+- ⚙️ Reading preferences
+- 📱 Responsive mobile navigation
+- 🎨 Modern responsive UI
+- 🔄 Smooth navigation and animations
+- 🧩 Reusable React components
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tech Stack
 
-## Expanding the ESLint configuration
+- React.js
+- JavaScript
+- Vite
+- Tailwind CSS
+- React Router
+- Lucide React
+- HTML5
+- CSS3
+- Browser localStorage
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📁 Project Structure
+
+```text
+src/
+├── assets/
+├── components/
+│   ├── ArticleCard.jsx
+│   ├── Footer.jsx
+│   ├── Navbar.jsx
+│   └── SearchBar.jsx
+│
+├── context/
+│   └── ThemeContext.jsx
+│
+├── data/
+│   └── articles.js
+│
+├── pages/
+│   ├── ArticleDetails.jsx
+│   ├── Bookmarks.jsx
+│   ├── Category.jsx
+│   ├── Home.jsx
+│   └── Preferences.jsx
+│
+├── App.jsx
+├── index.css
+└── main.jsx
