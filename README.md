@@ -1,5 +1,9 @@
 # 🌊 NewsWave — Modern Digital News & Magazine Platform
 
+## 🚀 Live Demo
+
+[🌐 View NewsWave Live](https://newswave-digital-news-platform.vercel.app)
+
 NewsWave is a modern, responsive digital news and magazine platform built with React.js, JavaScript, and Tailwind CSS.
 
 The platform provides users with a clean interface for discovering news, searching articles, browsing categories, saving bookmarks, and customizing their reading experience.
